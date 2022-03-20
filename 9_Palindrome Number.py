@@ -1,7 +1,7 @@
 class Solution(object):
     def isPalindrome1(self, x):
         x = list(str(x))
-        length = len(x)
+        length=len(x)
 
         if length%2 == 0:
             f_half = x[0:length//2]
@@ -20,4 +20,3 @@ class Solution(object):
         digit_list = []
         IDX = 0
         Divisor = 1
-        
